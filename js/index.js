@@ -2,11 +2,9 @@ var images =[];
 var pictures = document.getElementById('pictures');
 (function dom() {
     var searchForm = document.getElementById('main');
-    var searchTerm = document.getElementById('search').value;
     var body = document.getElementsByTagName('body')[0];
     var href = '';
     var number = 1;
-    var mainContent = document.getElementsByClassName('container2')[0];
     if (searchForm) {
     searchForm.addEventListener('submit', function(event){
       event.preventDefault();
