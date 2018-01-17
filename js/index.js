@@ -74,11 +74,11 @@ function newPage(number, page){
 
 function overlay(image) {
     document.getElementById("overlay").style.display = "flex";
-    document.getElementById("overlay").innerHTML = `<img class="content-img-overlay" src="${image}" alt="overlay">`;
+    document.getElementById("overlay").innerHTML = `<img class="overlay" src="${image}" alt="overlay">`;
 }
 function close() {
     alert('qqq');
-    document.getElementById("content-img-overlay").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
 }
 
 function request(url, cb) {
