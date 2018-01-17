@@ -81,6 +81,7 @@ function overlay(image) {
     document.getElementById("overlay").innerHTML = `<img class="content-img-overlay" src="${image}" alt="overlay">`;
 }
 function close() {
+    alert('qqq');
     document.getElementById("overlay").style.display = "none";
 }
 
