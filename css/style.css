@@ -132,7 +132,7 @@ hr {
   height: 100vh;
   background: rgba(0,0,0,0.75);
 }
-.close {
+.closeBtn {
     float:right;
     display:inline-block;
     padding:2px 5px;
