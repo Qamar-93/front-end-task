@@ -23,12 +23,9 @@ var pictures = document.getElementById('pictures');
           }
         });}
       });
-
-
     });
   }
 })();
-
 
 
 function getPics(search, fn) {
@@ -48,7 +45,6 @@ function getPics(search, fn) {
   }
 });
 }
-
 
 function getPages(search, images, fn) {
   var url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&tags="+search+"&api_key=c48c0eee6d23486475bd28a5cf3d1e43&per_page=100&page=1&format=json&nojsoncallback=%3F";
@@ -82,7 +78,7 @@ function overlay(image) {
 }
 function close() {
     alert('qqq');
-    document.getElementById("overlay").style.display = "none";
+    document.getElementById("content-img-overlay").style.display = "none";
 }
 
 function request(url, cb) {
