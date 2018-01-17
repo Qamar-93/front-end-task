@@ -74,7 +74,7 @@ function newPage(number, page){
 
 function overlay(image) {
     document.getElementById("overlay").style.display = "flex";
-    document.getElementById("overlay").innerHTML = `<img class="overlay" src="${image}" alt="overlay">`;
+    document.getElementById("overlay").innerHTML = `<img class="overlay" src="${image}">`;
 }
 function close() {
     alert('qqq');
