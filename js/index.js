@@ -65,11 +65,11 @@ function getPages(search, images, fn) {
 
 function newPage(number, page){
     var result=images.slice((number-1)*10, (number*10));
-    myString = result.reduce(function (acc, cur) {
+    imagesArray = result.reduce(function (acc, cur) {
       return acc+=`<img onclick="overlay('${cur.image}')" class="content-img" src="${cur.image}" alt="${cur.title}">`;
     }, '');
 
-      return pictures.innerHTML = myString;
+      return pictures.innerHTML = imagesArray;
     }
 
 function overlay(image) {
