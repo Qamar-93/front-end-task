@@ -1,4 +1,3 @@
-//DOM
 var images =[];
 var pictures = document.getElementById('pictures');
 (function dom() {
