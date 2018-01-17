@@ -6,7 +6,7 @@
 ## How you can use it ?
 
 
-1) you can visit the link [here](https://hanatj.github.io/Photo-Gallery/)
+1) you can visit the link [here](https://qamar-93.github.io/front-end-task/)
 
 2) Enter the search term in the box.
 
