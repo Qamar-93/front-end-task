@@ -1,6 +1,6 @@
 # Forbes photos Website
 
- > Simple website that allows the user search about any term and display all the photos using forbes Api.
+ > Simple website that allows the user search about any term and display all the photos using flickr Api.
 
 
 ## How you can use it ?
