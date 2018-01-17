@@ -45,7 +45,7 @@ input {
     font-size: 24px;
     flex: 3;
 }
-.addBtn {
+.seaechBtn {
     padding: 10px;
     background: #7f8c8d;
     color: white;
@@ -57,7 +57,7 @@ input {
     flex: 1;
 }
 
-.addBtn:hover {
+.searchBtn:hover {
     background-color: #81CFE0;
 }
 
@@ -94,7 +94,6 @@ hr {
     margin-left: 2%;
     margin-right: 2%;
     border-style: solid;
-    /*border-width: 1px;*/
 }
 
 .content-img {
@@ -103,12 +102,6 @@ hr {
     padding: 10px;
     background: white;
 
-}
-
-.contentText {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
 
