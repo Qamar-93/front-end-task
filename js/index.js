@@ -78,7 +78,7 @@ function overlay(image) {
 }
 function close() {
     alert('qqq');
-    document.getElementById("overlay").style.display = "none";
+//     document.getElementById("overlay").style.display = "none";
 }
 
 function request(url, cb) {
